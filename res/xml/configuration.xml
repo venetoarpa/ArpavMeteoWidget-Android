@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="@string/option_location">
+	<ListPreference 
+	    	android:key="city_zone"
+            android:dialogTitle="@string/option_city"
+            android:title="@string/option_city"/>    
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/option_color">
+        <ListPreference 
+            android:key="color_text"
+            android:dialogTitle="@string/option_color_text"
+            android:entries="@array/color_text"
+            android:entryValues="@array/color_text_value"
+            android:title="@string/option_color_text"
+            android:defaultValue="#33B5E5"/>
+        <ListPreference 
+            android:key="color_icons"
+            android:dialogTitle="@string/option_color_icons"
+            android:entries="@array/color_icons"
+            android:entryValues="@array/color_icons_value"
+            android:title="@string/option_color_icons" 
+            android:defaultValue="c"/>
+        <CheckBoxPreference android:key="contrast" android:title="@string/option_color_contrast" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/option_background">
+        <ListPreference 
+            android:key="background_trasp"
+            android:dialogTitle="@string/option_background_trasparency"
+            android:entries="@array/background_trasp"
+            android:entryValues="@array/background_trasp_value"
+            android:title="@string/option_background_trasparency"
+            android:defaultValue="BF"/>
+        <ListPreference 
+            android:key="background_color"
+            android:dialogTitle="@string/option_background_color"
+            android:entries="@array/background_color"
+            android:entryValues="@array/background_color_value"
+            android:title="@string/option_background_color"
+            android:defaultValue="FFFFFF"/>
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/language">
+        <ListPreference 
+            android:key="language"
+            android:dialogTitle="@string/option_language"
+            android:entries="@array/language"
+            android:entryValues="@array/language_value"
+            android:title="@string/option_language"
+            android:defaultValue="IT"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

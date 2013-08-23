@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"    
+    android:initialLayout="@layout/simple_widget_main"
+    android:minHeight="60dip"
+    android:minWidth="296dp"
+    android:updatePeriodMillis="0"
+    android:previewImage="@drawable/preview_simple"
+    android:widgetCategory="home_screen"
+    android:configure="it.veneto.arpa.view.SimpleWidgetConfiguration">
+</appwidget-provider>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ARPAV Meteo Widget</string>
+    <string name="option_location" >Select location</string>
+    <string name="option_city" >City</string>
+    <string name="option_color">Select color</string>
+    <string name="option_color_text">Text</string>
+    <string name="option_color_icons">Icons</string>
+	<string name="option_color_contrast">High Contrast</string>    
+    <string name="option_background">Select background options</string>
+    <string name="option_background_color">Color</string>
+    <string name="option_background_trasparency">Trasparency</string>
+    <string name="option_button">Save</string>
+    <string name="add_city">Add city</string>
+    <string name="language">Select language</string>
+    <string name="option_language">Meteo language</string>
+    <string name="title_prov">Provinces</string>
+    <string name="title_cit">Cities</string>
+    <string name="auto_loc">Auto location</string>
+    <string name="label_detailed">ARPAV Detailed</string>
+    <string name="label_simple">ARPAV Simple</string>
+    <string name="loading">Loading data</string>
+    <string name="err_loc">Locality not found</string>
+    <string name="err_add_loc">Remove widget and add locality manually</string>
+    <string name="arpa">Arpav</string>
+    
+</resources>
